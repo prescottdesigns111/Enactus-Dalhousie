@@ -327,11 +327,12 @@ h1, h2, h3, h4 { color: var(--black); line-height: 1.15; font-weight: 800; lette
   .nav__toggle { display: flex; }
   .nav.open .nav__links {
     display: flex; flex-direction: column; align-items: stretch;
-    position: absolute; top: 76px; left: 0; right: 0;
+    position: absolute; top: 88px; left: 0; right: 0;
     background: #fff; border-bottom: 1px solid var(--line);
-    padding: 16px 24px; gap: 4px; box-shadow: var(--shadow);
+    padding: 20px 24px; gap: 6px; box-shadow: var(--shadow);
   }
-  .nav.open .nav__links a { padding: 12px 14px; }
+  .nav.open .nav__links a { padding: 13px 14px; }
+  .nav.open .nav__links a.active { padding: 7px 12px; font-size: 0.88rem; }
   .nav__cta { display: none; }
   .grid-3, .grid-2, .steps, .tag-grid, .copres { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
